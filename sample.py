@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-'''Sample Python script for OPS435 Lab 1.
+'''Sample Python script for OPS445 Lab 1.
    Author: Raymond Chan
    Program name: sample.py
    Date Created: May 2020
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     error_count = 0
 
     for sub_dir in dir_list:
-        sub_dir_path = base_dir + '/ops435/' + sub_dir
+        sub_dir_path = base_dir + '/ops445/' + sub_dir
         if os.path.isdir(sub_dir_path) == True:
             print('Subdirectory',sub_dir_path,'already exist, skipped.',file=sys.stderr)
             fail_count += 1
